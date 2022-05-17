@@ -1,11 +1,10 @@
 #pragma once
 #include "Monster.h"
 class Goblin :
-    public Monster
+	public Monster
 {
 public:
-    Goblin();
-    virtual ~Goblin();
-    void Move() override;
+	Goblin();
+	virtual ~Goblin();
+	void Move() override;
 };
-
