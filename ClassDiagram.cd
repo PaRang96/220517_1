@@ -1,63 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Actor" Collapsed="true">
-    <Position X="4" Y="0.5" Width="1.5" />
+  <Class Name="Actor">
+    <Position X="3" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAgAAEAAAAAAAAAIAAAAAAAAAAAAAAQAE=</HashCode>
       <FileName>Actor.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Boar" Collapsed="true">
-    <Position X="3" Y="3.25" Width="1.5" />
+  <Class Name="Boar">
+    <Position X="3" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAKAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Boar.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CustomWorld" Collapsed="true">
-    <Position X="0.5" Y="4.75" Width="1.5" />
+  <Class Name="CustomWorld">
+    <Position X="9.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAACAAAgAAA=</HashCode>
       <FileName>CustomWorld.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Engine" Collapsed="true">
-    <Position X="10" Y="0.5" Width="1.5" />
+  <Class Name="Engine">
+    <Position X="9.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAI=</HashCode>
       <FileName>Engine.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Goblin" Collapsed="true">
-    <Position X="5.25" Y="3.25" Width="1.5" />
+  <Class Name="Goblin">
+    <Position X="5.25" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAA=</HashCode>
       <FileName>Goblin.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Monster" Collapsed="true">
-    <Position X="5.25" Y="1.75" Width="1.5" />
+  <Class Name="Monster">
+    <Position X="5.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAAAACAAIAQAAAACAAAAAAAAIAAAAAgAgAAAAAAQAE=</HashCode>
       <FileName>Monster.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PlayerCharacter" Collapsed="true">
-    <Position X="0.75" Y="1.75" Width="1.5" />
+  <Class Name="PlayerCharacter">
+    <Position X="0.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEACACAAIAAAIAAAAIAACAAAIAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>PlayerCharacter.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Slime" Collapsed="true">
-    <Position X="7.5" Y="3.25" Width="1.5" />
+  <Class Name="Slime">
+    <Position X="7.5" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAACAAAAAAACAAA=</HashCode>
       <FileName>Slime.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="World" Collapsed="true">
-    <Position X="0.5" Y="3.5" Width="1.5" />
+  <Class Name="World">
+    <Position X="9.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABIAAAAAAgAAAAAAAAACAAAAABACAAAAQAA=</HashCode>
       <FileName>World.h</FileName>
