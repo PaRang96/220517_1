@@ -8,11 +8,15 @@ PlayerCharacter::~PlayerCharacter()
 {
 }
 
-void PlayerCharacter::Movement(int x, int y)
+void PlayerCharacter::Movement()
 {
 }
 
 int PlayerCharacter::Attack(int damage, Monster& Monster)
 {
 	return 0;
+}
+
+void PlayerCharacter::Pickup()
+{
 }

@@ -3,6 +3,7 @@
 class Boar :
     public Monster
 {
+public:
     Boar();
     ~Boar();
 };

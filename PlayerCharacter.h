@@ -5,6 +5,7 @@ using namespace std;
 
 class PlayerCharacter
 {
+private:
 	string PlayerName;
 	int MaxHp;
 	int CurrentHp;
@@ -13,10 +14,13 @@ class PlayerCharacter
 	int XCoord;
 	int YCoord;
 	int Damage;
+	int Gold;
 
+public:
 	PlayerCharacter();
 	~PlayerCharacter();
-	void Movement(int x, int y);
+	void Movement();
 	int Attack(int damage, Monster& Monster);
+	void Pickup();
 };
 
