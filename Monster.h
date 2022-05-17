@@ -1,9 +1,11 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include "Actor.h"
 using namespace std;
 
 class Monster
+	:public Actor
 {
 private:
 	string MonsterName;
@@ -17,6 +19,6 @@ public:
 	virtual int Death();
 	virtual void Move();
 	virtual void Drop();
-	virtual void Attack();
+	virtual int Attack();
 };
 

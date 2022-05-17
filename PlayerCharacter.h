@@ -1,26 +1,23 @@
 #pragma once
 #include <string>
+#include "Actor.h"
 using namespace std;
 
 class PlayerCharacter
+	:public Actor
 {
 private:
 	string PlayerName;
-	int MaxHp;
-	int CurrentHp;
-	int MaxMp;
-	int CurrentMp;
-	int XCoord;
-	int YCoord;
+	int Mp;
+	int Location;
 	int Damage;
-	int Gold;
 
 public:
 	PlayerCharacter();
 	PlayerCharacter(int MaxHp, int MaxMp, int Gold);
 	~PlayerCharacter();
-	void Movement();
-	int Attack();
 	void Pickup();
+	int Attack() override;
+	void Move() override;
 };
 

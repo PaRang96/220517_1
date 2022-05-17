@@ -23,6 +23,7 @@ void Monster::Drop()
 {
 }
 
-void Monster::Attack()
+int Monster::Attack()
 {
+    return 0;
 }

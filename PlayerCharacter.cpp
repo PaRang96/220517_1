@@ -5,16 +5,17 @@ PlayerCharacter::PlayerCharacter()
 }
 
 PlayerCharacter::PlayerCharacter(int MaxHp, int MaxMp, int Gold)
-	: MaxHp(0), MaxMp(0), Gold(0)
 {
-
+	Hp = MaxHp;
+	Mp = MaxMp;
+	Gold = Gold;
 }
 
 PlayerCharacter::~PlayerCharacter()
 {
 }
 
-void PlayerCharacter::Movement()
+void PlayerCharacter::Move()
 {
 }
 

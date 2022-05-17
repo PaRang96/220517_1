@@ -28,6 +28,7 @@ int main()
 	{
 		Monsters[i]->Move();
 	}
+
 	cout << "---------------------------" << endl;
 
 	for (int i = 0; i < Monsters.size(); i++)
