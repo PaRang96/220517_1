@@ -8,7 +8,7 @@ Monster::~Monster()
 {
 }
 
-int Monster::Death(PlayerCharacter& PlayerCharacter, int Gold)
+int Monster::Death()
 {
     return 0;
 }

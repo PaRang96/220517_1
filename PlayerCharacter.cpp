@@ -12,7 +12,7 @@ void PlayerCharacter::Movement()
 {
 }
 
-int PlayerCharacter::Attack(int damage, Monster& Monster)
+int PlayerCharacter::Attack()
 {
 	return 0;
 }

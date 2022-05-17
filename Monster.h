@@ -13,7 +13,7 @@ private:
 public:
 	Monster();
 	~Monster();
-	int Death(PlayerCharacter& PlayerCharacter, int Gold);
+	int Death();
 	void Move();
 	void Drop();
 	void Attack();

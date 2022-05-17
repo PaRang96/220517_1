@@ -19,7 +19,7 @@ public:
 	PlayerCharacter();
 	~PlayerCharacter();
 	void Movement();
-	int Attack(int damage, Monster& Monster);
+	int Attack();
 	void Pickup();
 };
 
