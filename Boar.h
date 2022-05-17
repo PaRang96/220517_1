@@ -5,6 +5,7 @@ class Boar :
 {
 public:
     Boar();
-    ~Boar();
+    virtual ~Boar();
+    void Move();
 };
 

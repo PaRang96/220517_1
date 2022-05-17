@@ -17,6 +17,7 @@ private:
 
 public:
 	PlayerCharacter();
+	PlayerCharacter(int MaxHp, int MaxMp, int Gold);
 	~PlayerCharacter();
 	void Movement();
 	int Attack();

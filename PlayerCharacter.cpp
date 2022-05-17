@@ -4,6 +4,12 @@ PlayerCharacter::PlayerCharacter()
 {
 }
 
+PlayerCharacter::PlayerCharacter(int MaxHp, int MaxMp, int Gold)
+	: MaxHp(0), MaxMp(0), Gold(0)
+{
+
+}
+
 PlayerCharacter::~PlayerCharacter()
 {
 }

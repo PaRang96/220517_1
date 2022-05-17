@@ -2,10 +2,12 @@
 
 Monster::Monster()
 {
+
 }
 
 Monster::~Monster()
 {
+    
 }
 
 int Monster::Death()

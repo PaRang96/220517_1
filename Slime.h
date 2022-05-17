@@ -5,6 +5,7 @@ class Slime :
 {
 public:
     Slime();
-    ~Slime();
+    virtual ~Slime();
+    void Move();
 };
 
