@@ -12,5 +12,5 @@ Goblin::~Goblin()
 
 void Goblin::Move()
 {
-	cout << "Goblin movemnet" << endl;
+	cout << "Goblin movement" << endl;
 }

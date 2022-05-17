@@ -7,37 +7,16 @@
 #include <time.h>
 #include <string>
 #include <vector>		// container STL, Standard Template Library
+#include "World.h"
+#include "CustomWorld.h"
+#include "Engine.h"
 using namespace std;
 
 int main()
 {
-	PlayerCharacter* MyPlayer = new PlayerCharacter(100, 100, 100);
+	Engine* MyEngine = new Engine();
 
-	srand(static_cast<unsigned int>(time(nullptr)));
-	
-	// create 1 Goblin, 1 Slime, and 2 Boars into vector container "Monsters"
-	vector<Monster*> Monsters;
-	Monsters.push_back(new Goblin);
-	Monsters.push_back(new Slime);
-	Monsters.push_back(new Boar);
-	Monsters.push_back(new Boar);
-	
-	cout << "---------------------------" << endl;
+	MyEngine->Run();
 
-	for (int i = 0; i < Monsters.size(); i++)
-	{
-		Monsters[i]->Move();
-	}
-
-	cout << "---------------------------" << endl;
-
-	for (int i = 0; i < Monsters.size(); i++)
-	{
-		delete Monsters[i];
-	}
-
-	delete MyPlayer;
-	MyPlayer = nullptr;
-	
 	return 0;
 }

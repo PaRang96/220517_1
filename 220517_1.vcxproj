@@ -141,19 +141,28 @@
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Boar.cpp" />
+    <ClCompile Include="CustomWorld.cpp" />
+    <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Goblin.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="PlayerCharacter.cpp" />
     <ClCompile Include="Slime.cpp" />
+    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h" />
     <ClInclude Include="Boar.h" />
+    <ClInclude Include="CustomWorld.h" />
+    <ClInclude Include="Engine.h" />
     <ClInclude Include="Goblin.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="PlayerCharacter.h" />
     <ClInclude Include="Slime.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
