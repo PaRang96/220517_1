@@ -6,6 +6,6 @@ class Boar :
 public:
     Boar();
     virtual ~Boar();
-    void Move();
+    void Move() override;
 };
 

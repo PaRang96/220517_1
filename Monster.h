@@ -14,9 +14,9 @@ private:
 public:
 	Monster();
 	virtual ~Monster();
-	int Death();
+	virtual int Death();
 	virtual void Move();
-	void Drop();
-	void Attack();
+	virtual void Drop();
+	virtual void Attack();
 };
 

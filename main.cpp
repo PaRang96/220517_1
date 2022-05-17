@@ -22,6 +22,13 @@ int main()
 	Monsters.push_back(new Boar);
 	Monsters.push_back(new Boar);
 
+	cout << "---------------------------" << endl;
+
+	for (int i = 0; i < Monsters.size(); i++)
+	{
+		delete Monsters[i];
+	}
+
 	delete MyPlayer;
 	MyPlayer = nullptr;
 	
